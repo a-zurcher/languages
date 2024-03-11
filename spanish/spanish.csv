@@ -1,25 +1,25 @@
 # page 5
-0;cero
-1;uno
-2;dos
-3;tres
-4;cuatro
-5;cinco
-6;seis
-7;siete
-8;ocho
-9;nueve
-10;diez
-11;once
-12;doce
-13;trece
-14;catorce
-15;quince
-16;dieciséis
-17;diecisiete
-18;dieciocho
-19;diecinueve
-20;veinte
+cero;0
+uno;1
+dos;2
+tres;3
+cuatro;4
+cinco;5
+seis;6
+siete;7
+ocho;8
+nueve;9
+diez;10
+once;11
+doce;12
+trece;13
+catorce;14
+quince;15
+dieciséis;16
+diecisiete;17
+dieciocho;18
+diecinueve;19
+veinte;20
 
 # page 6
 por la mañana;in the morning
@@ -170,26 +170,26 @@ la cuenta;the bill/check
 setenta;seventy
 
 # page 19
-21;veintiuno
-22;veintidós
-23;veintitrés
-24;veinticuatro
-25;veinticinco
-26;veintiséis
-27;veintisiete
-28;veintiocho
-29;veintinueve
-30;treinta
-31;treinta y uno
-32;treinta y dos
-33;treinta y tres
-40;cuarenta
-50;cincuenta
-60;sesenta
-70;setenta
-80;ochenta
-90;noventa
-100;cien
+veintiuno;21
+veintidós;22
+veintitrés;23
+veinticuatro;24
+veinticinco;25
+veintiséis;26
+veintisiete;27
+veintiocho;28
+veintinueve;29
+treinta;30
+treinta y uno;31
+treinta y dos;32
+treinta y tres;33
+cuarenta;40
+cincuenta;50
+sesenta;60
+setenta;70
+ochenta;80
+noventa;90
+cien;100
 
 
 # page 21
