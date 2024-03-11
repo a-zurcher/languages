@@ -1,0 +1,342 @@
+# page 5
+0;cero
+1;uno
+2;dos
+3;tres
+4;cuatro
+5;cinco
+6;seis
+7;siete
+8;ocho
+9;nueve
+10;diez
+11;once
+12;doce
+13;trece
+14;catorce
+15;quince
+16;dieciséis
+17;diecisiete
+18;dieciocho
+19;diecinueve
+20;veinte
+
+# page 6
+por la mañana;in the morning
+hola;hello
+buenos días;good morning
+¿Qué tal?;how are you?
+bien;well
+muy bien; very well
+y;and
+¿Y tú?;And you?
+¿Cómo estás?;How are you?
+gracias;thank you
+bueno;well (filler word)
+hasta luego;bye then
+chao;bye
+¡Nos vemos!;See you!
+el señor;mister
+¿cómo está usted?;How are You?
+¿Y usted?;And You ?
+esta es;this is (introducing a woman)
+mi hija;my daughter
+encantado, -a;nice to meet you
+la señor;Mrs, madam, lady
+
+# page 7
+por la tarde;in the afternoon
+buenas tardes;good afternoon
+perdón;perdon me
+¿Cómo se llama usted?;what is Your name?
+yo;I
+me llamo;my name is
+Usted no es de aquí;you are not from here
+¿Verdad?;right? Isn'it so?
+no;no
+soy de Perú;I'm from Perú
+este es;this is (introducing a man)
+mi novio;my boyfriend
+se llama;his/her name is
+él es;he is
+finlandés, -a;Finnish
+sí;yes
+Finlandia;Finland
+por la noche;at night
+¿Nos vemos?;I'll see you?
+mañana;tomorrow
+en el bar;in the bar
+adiós;goodbye
+cariño;darling
+¡Hasta mañana!;I'll see you tomorrow
+
+# page 8
+¡Hola!;Hello!
+¡Buenos días!;Good afternoon!
+¡Buenas tardes!;See you tomorrow!
+¡Buenas noches!;Good night!
+¡Adiós!;Bye!
+¡Chao!;Bye!
+¡Hasta mañana!;See you tomorrow!
+¡Nos vemos!;See you again!
+
+# page 9
+yo;I
+tú;you
+él;he
+ella;she
+usted;You
+nosotros, nosotras;we
+vosotros, vosotras;(you plural)
+ellos;they (men)
+ellas;they (women)
+ustedes;You (polite)
+
+# page 12
+amor;(lit. love)
+cariño;(lit. affection)
+cielo; (lit. sky, heaven)
+corazón;(lit. heart)
+guapo, guapa;(lit. handsome, pretty)
+hijo, hija;(lit. son, daughter)
+querido, querida;(lit. dear)
+
+# page 14
+Sí;Yes
+No;No
+A lo mejor;Maybe
+De nada;You are welcome
+Lo siento;I'm sorry
+(Muy bien);(Very) well
+Genial;Brilliant, great
+Estupendo;Wonderful
+Fenomenal;Amazing
+Pues... / Bueno...;Well...
+A ver...;Let's see
+¿Qué (te) pasa?;What's going on (with you)?
+¿Qué página?;What page?
+Paso;I'll pass
+Buen fin de semana;Have a good weekend
+Buen viaje;Have a good trip
+
+# page 17
+en;in
+el bar;the bar
+están;they are
+estar*;to be (somewhere)
+regular;so-so
+candado, -a;tired
+necesitar;to need
+un café;a coffee
+el camarero, la camarera;the waiter, the waitress
+por favor;please
+¿qué quieren tomar?;what would (you plural) like to have?
+pues...;well...
+un café solo;espresso
+con hielo;with ice
+un agua mineral sin gas;still mineral water
+para mí;for me
+¿Algo más?;Anything else?
+una magdalena de chocolate;chocolate muffin
+¿Cuánto es?;How much is it?
+aquí tiene;here you are
+gracias;thank you
+perdón;excuse me, sorry
+no pasa nada;it's OK
+
+# page 18
+la barra;the bar (counter)
+una caña;a small draft beer
+un vino blanco;a white wine
+¿Algo más?;Anything else?
+tapas;tapas
+tienen;You (pl) have
+tener*;to have
+patatasbravas;potatoes with (spicy) tomato sauce
+jamón serrano;dry cured ham
+queso manchego;cheese of La Mancha
+Esta tapa;this tapa
+mejillones a la marineravale;mussels a la marinera (sailor’s way)
+vale;OK
+está bien;that's fine
+una ración;a portion
+tortilla;Spanish omelette (with potatoes)
+Lo siento;I'm sorry
+entonces;so
+otro, -a;other
+señores;(here: señora y señor)
+ahora mismo;right away
+la cuenta;the bill/check
+setenta;seventy
+
+# page 19
+21;veintiuno
+22;veintidós
+23;veintitrés
+24;veinticuatro
+25;veinticinco
+26;veintiséis
+27;veintisiete
+28;veintiocho
+29;veintinueve
+30;treinta
+31;treinta y uno
+32;treinta y dos
+33;treinta y tres
+40;cuarenta
+50;cincuenta
+60;sesenta
+70;setenta
+80;ochenta
+90;noventa
+100;cien
+
+
+# page 21
+un café solo;espresso
+un cortado;coffee with just a little bit of milk
+un café con leche;coffee with milk
+una caña;glass of beer
+una clara;glass of beer with lemonade (shandy)
+una copa de vino tinto;glass of red wine
+un agua mineral;mineral water
+un zumo de naranja;orange juice
+un bocadillo de queso;cheese baguette
+
+# page 24
+a - a Barcelona;To (place) - to Barcelona
+Al - al Centro;To the (masculine word, place) - to the centre
+a la - a la escuela;To the (feminine word, place) - to the school
+a la - los mejillones a la marinera;(From, style) - the sailor's way
+de - de Barcelona;From (place) - From Barcelona
+del (de + el) - del centro;From the (masculine word, place) - from the centre
+de la - de la escuela;From the (feminine word, place) - from the school
+de - cocadillo de queso;Pronoun (compound nouns) - Cheese baguette
+de - el bocadilo de Pablo;Pronoun (possesion) - Pablo's baguette
+en - en el bar;In - in the bar
+con - café con hielo;With - coffee with ice
+sin - aqua sin gas;Without - mineral water without gas
+para - para mí;For - for me
+por - por la mañana;Pronoun (About time of the day) - in the morning
+por - por favor;Pronoun (in several expressions) - please
+
+
+# page 29
+¿Tienes hijos?;Do you have children?
+un mes;month
+tener*;to have
+mi hijo;my son
+hablar por su movil;to talk on her cellphone
+mi;my
+el hijo, la hija;son, daughter
+la terraza;terrace
+pero;but
+mientras;meanwhile
+mayor;old
+charlar;to chat, to talk
+más;more
+con;with
+solo;only
+así que;so
+tengo;I have
+un perro;a dog
+divorciado, -a;divorced
+¡Qué bien!;How nice!
+el novio;boyfriend
+inteligente;intelligent
+¿De veras?;Really?
+¿Cuántos años tiene?;How old is (s)he?
+por eso;that’s why
+tranquilo;calm, quiet
+tan;so
+ya;already
+rubio, -a;blond
+un año;year
+guapo, -a;handsome, pretty
+
+# page 30
+la familia;family
+pequeño, -a;small
+ahora;now
+en casa;at home
+dónde;where
+la suegra;mother-in-law
+viudo, -a;widower, widow
+siempre;always
+el tiempo;time
+los nietos;grandchildren
+¡Es una maravilla!;It's wonderful!
+mira (mirar);look
+una foto;picture
+la cartera;wallet
+¡Qué señora más elegante!;What an elegant lady!
+¿Quién?;Who?
+la hermana;sister
+aquí;here
+al lado;next to
+el marido;husband
+nuestro, -a;our
+vuestro, -a;your (pl)
+el niño, la niña;boy, girl
+alto, -a;tall
+como su padre;like her father
+oye (oír*);listen
+presento (presentar);introduce
+Te presento a Rebeca;I introduce Rebeca to you
+el vecino, la vecina;the neighbour
+hablas (hablar);you speak
+el español;Spanish (language)
+estudio (estudiar);I study
+la arquitectura;Architecture
+también;also
+de portero;as a doorman
+una discoteca;a club
+¡Qué interesante!;How interesting!
+
+# page 31
+padre, madre;father, mother
+padres;parents
+hijo, hija;son, daughter
+children;hijos
+hermano, hermana;brother, sister
+siblings;hermanos
+abuelo, abuela;grandfather, grandmother
+abuelos;grandparents
+nieto, nieta;grandson, granddaughter
+grandchildren;nietos
+tío, tia;uncle, aunt
+tíos;aunt & uncle(s)
+primo, prima;cousin (masculine), cousin (feminine)
+primos;cousins
+novio, novia;boyfriend/fiancé/groom, girlfriend/fiancée/bride
+novios;couple (to be married)
+sobrino, sobrina;nephew, niece
+sobrinos;niece and nephew(s)
+
+# page 33
+Bajo, baja;Short
+Alto, alta;Tall
+Bueno, buena;Good
+Malo, mala;Bad
+Divertido, divertida;Amusing
+Aburrido, aburrida;Boring
+Feo, fea;Ugly
+Guapo, guapa;Good-looking
+Feliz;Happy
+Infeliz;Unhappy
+Fuerte;Strong
+Débil;Weak
+Gordo, gorda;Fat
+Delgado, delgada;Thin
+Inteligente;Intelligent
+Tonto, tonta;Silly
+Moreno, morena;Dark (haired)
+Rubio, rubia;Blond
+Pequeño, pequeña;Small
+Grande;Large
+Rico, rica;Rich
+Pobre;Poor
+Simpático, simpática;Likeable
+Antipático, antipática;Unpleasant
+Viejo, vieja;Old
+Joven;Young
