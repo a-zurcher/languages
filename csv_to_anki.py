@@ -13,25 +13,33 @@ parser = argparse.ArgumentParser(
 )
 
 parser.add_argument(
-    "-i", "--input",
+    '-i', '--input',
     type=str,
-    nargs="+",
+    nargs='+',
     help='One or more CSV file(s), if filename contains "cloze", it will be treated as such '
          'flashcards',
     required=True
 )
 
 parser.add_argument(
-    "-n", "--name",
+    '-n', '--name',
     type=str,
     help='Name of the generated Anki pack',
     required=True
+)
+
+parser.add_argument(
+    '-l', '--language',
+    type=str,
+    help='ISO code for the language, used for text to speech',
+    required=False
 )
 
 args = parser.parse_args()
 
 files = args.input
 deck_name = args.name
+language = args.language
 
 
 #################
@@ -51,6 +59,40 @@ def get_csv(filename: str, delimiter: str) -> [[str]]:
 #################
 # Anki logic ####
 #################
+#if language:
+#    card_content = "{{tts "+language+" android-lang=es:Front}}{{Front}}"
+#else:
+#    card_content = "{{Front}}"
+
+
+model_basic_and_reversed_with_tts = genanki.Model(
+  1485830179,
+  'Basic (and reversed card), with TTS',
+  fields=[
+    {
+      'name': 'Front',
+      'font': 'Arial',
+    },
+    {
+      'name': 'Back',
+      'font': 'Arial',
+    },
+  ],
+  templates=[
+    {
+      'name': 'Card 1',
+      'qfmt': '{{Front}}',
+      'afmt': '{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}',
+    },
+    {
+      'name': 'Card 2',
+      'qfmt': '{{Back}}',
+      'afmt': '{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}',
+    },
+  ],
+  css='.card { font-family: arial; font-size: 20px; text-align: center; color: black; background-color: white;}',
+)
+
 model_verbs = genanki.Model(
   1607392319,
   'Spanish verb Model',
@@ -94,24 +136,24 @@ my_deck = genanki.Deck(
     name=deck_name
 )
 
-print(f"Files parsed: {", ".join(files)}")
+print(f'Files parsed: {', '.join(files)}')
 for file in files:
     fields = 2
 
-    if re.match(pattern=f".*cloze.*csv", string=file):
-        print(f"{file} detected to contain cloze flashcards.")
+    if re.match(pattern=f'.*cloze.*csv', string=file):
+        print(f'{file} detected to contain cloze flashcards.')
         model = genanki.CLOZE_MODEL
-    elif re.match(pattern=".*verb.*csv", string=file):
-        print(f"{file} detected to contain verb conjugaison flashcards.")
+    elif re.match(pattern='.*verb.*csv', string=file):
+        print(f'{file} detected to contain verb conjugaison flashcards.')
         fields = 8
         model = model_verbs
-    elif re.match(pattern=".*csv", string=file):
-        model = genanki.BASIC_AND_REVERSED_CARD_MODEL
+    elif re.match(pattern='.*csv', string=file):
+        model = model_basic_and_reversed_with_tts
     else:
-        print(f"Error ! The format of the file \"{file}\" is not supported.")
+        print(f'Error ! The format of the file "{file}" is not supported.')
         exit(1)
 
-    csv_content = get_csv(filename=file, delimiter=";")
+    csv_content = get_csv(filename=file, delimiter=';')
 
     for row in csv_content:
         # checks if there is two different fields for the current row
@@ -128,4 +170,4 @@ for file in files:
 # Generate deck #
 #################
 genanki.Package(my_deck).write_to_file(f'{deck_name}.apkg')
-print(f"Anki deck file {deck_name}.apkg was generated")
+print(f'Anki deck file {deck_name}.apkg was generated')
