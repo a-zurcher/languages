@@ -3,7 +3,7 @@
 import genanki
 import argparse
 import re
-from lib.File import File
+import csv
 
 #################
 # Arguments #####
@@ -32,6 +32,21 @@ args = parser.parse_args()
 
 files = args.input
 deck_name = args.name
+
+
+#################
+# Helper function
+#################
+def get_csv(filename: str, delimiter: str) -> [[str]]:
+    csv_rows = []
+    with open(filename, newline='') as csvfile:
+        csv_reader = csv.reader(csvfile, delimiter=delimiter, quotechar='|')
+
+        for csv_row in csv_reader:
+            csv_rows.append(csv_row)
+
+    return csv_rows
+
 
 #################
 # Anki logic ####
@@ -96,9 +111,9 @@ for file in files:
         print(f"Error ! The format of the file \"{file}\" is not supported.")
         exit(1)
 
-    csv = File.get_csv(filename=file, delimiter=";")
+    csv_content = get_csv(filename=file, delimiter=";")
 
-    for row in csv:
+    for row in csv_content:
         # checks if there is two different fields for the current row
         if (len(row)) == fields:
             my_deck.add_note(
