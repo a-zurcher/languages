@@ -1,4 +1,5 @@
 #!/bin/python3
+import hashlib
 
 import genanki
 import argparse
@@ -37,9 +38,13 @@ parser.add_argument(
 
 args = parser.parse_args()
 
-files = args.input
-deck_name = args.name
-language = args.language
+files: [str] = args.input
+deck_name: str = args.name
+deck_name_int_hash: int = int(
+    hashlib.shake_256(deck_name.encode("utf-8")).hexdigest(7),
+    16
+)
+language: str = args.language
 
 
 #################
@@ -117,22 +122,22 @@ model_verbs = genanki.Model(
               '<p style="text-align:center;"><b>{{Infinitive}}</b><hr id="answer"></p>'
               '<table>'
               '<tr>'
-                '<td>{{SingularFirst}}</td>'
-                '<td>{{PluralFirst}}</td>'
+                '<td tabindex="0">{{SingularFirst}}</td>'
+                '<td tabindex="3">{{PluralFirst}}</td>'
               '</tr>'
               '<tr>'
-                '<td>{{SingularSecond}}</td>'
-                '<td>{{PluralSecond}}</td>'
+                '<td tabindex="1">{{SingularSecond}}</td>'
+                '<td tabindex="4">{{PluralSecond}}</td>'
               '</tr>'
               '<tr>'
-                '<td>{{SingularThird}}</td>'
-                '<td>{{PluralThird}}</td>'
+                '<td tabindex="2">{{SingularThird}}</td>'
+                '<td tabindex="5">{{PluralThird}}</td>'
               '</tr>'
               '</table>'
     },
   ])
 my_deck = genanki.Deck(
-    deck_id=2059400110,
+    deck_id=deck_name_int_hash,
     name=deck_name
 )
 
