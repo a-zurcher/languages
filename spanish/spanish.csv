@@ -1,25 +1,25 @@
 # page 5
-cero;0
-uno;1
-dos;2
-tres;3
-cuatro;4
-cinco;5
-seis;6
-siete;7
-ocho;8
-nueve;9
-diez;10
-once;11
-doce;12
-trece;13
-catorce;14
-quince;15
-dieciséis;16
-diecisiete;17
-dieciocho;18
-diecinueve;19
-veinte;20
+cero;zero
+uno;one
+dos;two
+tres;three
+cuatro;four
+cinco;five
+seis;six
+siete;seven
+ocho;eight
+nueve;nine
+diez;ten
+once;eleven
+doce;twelve
+trece;thirteen
+catorce;fourteen
+quince;fifteen
+dieciséis;sixteen
+diecisiete;seventeen
+dieciocho;eighteen
+diecinueve;ninteen
+veinte;twenty
 
 # page 6
 por la mañana;in the morning
@@ -170,26 +170,26 @@ la cuenta;the bill/check
 setenta;seventy
 
 # page 19
-veintiuno;21
-veintidós;22
-veintitrés;23
-veinticuatro;24
-veinticinco;25
-veintiséis;26
-veintisiete;27
-veintiocho;28
-veintinueve;29
-treinta;30
-treinta y uno;31
-treinta y dos;32
-treinta y tres;33
-cuarenta;40
-cincuenta;50
-sesenta;60
-setenta;70
-ochenta;80
-noventa;90
-cien;100
+veintiuno;twenty-one
+veintidós;twenty-two
+veintitrés;twenty-three
+veinticuatro;twenty-four
+veinticinco;twenty-five
+veintiséis;twenty-six
+veintisiete;twenty-seven
+veintiocho;twenty-eight
+veintinueve;twenty-nine
+treinta;thirty
+treinta y uno;thirty-one
+treinta y dos;thirty-two
+treinta y tres;thirty-three
+cuarenta;forty
+cincuenta;fifty
+sesenta;sixty
+setenta;seventy
+ochenta;eighty
+noventa;ninety
+cien;one hundred
 
 
 # page 21
