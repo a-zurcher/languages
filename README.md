@@ -1,6 +1,6 @@
-# Verbs
+# Languages
 
-Python script and vocabulary files to generate [Anki flashcards](https://apps.ankiweb.net/). 
+Python script and learning material to generate [Anki flashcards](https://apps.ankiweb.net/). 
 
 ## Usage
 
