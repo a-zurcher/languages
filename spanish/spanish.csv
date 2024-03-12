@@ -102,8 +102,8 @@ hijo, hija;(lit. son, daughter)
 querido, querida;(lit. dear)
 
 # page 14
-Sí;Yes
-No;No
+sí;yes
+no;no
 A lo mejor;Maybe
 De nada;You are welcome
 Lo siento;I'm sorry
@@ -115,7 +115,7 @@ Pues... / Bueno...;Well...
 A ver...;Let's see
 ¿Qué (te) pasa?;What's going on (with you)?
 ¿Qué página?;What page?
-Paso;I'll pass
+paso;I'll pass
 Buen fin de semana;Have a good weekend
 Buen viaje;Have a good trip
 
@@ -222,7 +222,7 @@ por - por favor;Pronoun (in several expressions) - please
 ¿Tienes hijos?;Do you have children?
 un mes;month
 mi hijo;my son
-hablar por su mobil;to talk on her cellphone
+hablar por su móvil;to talk on her/his cellphone
 mi;my
 el hijo, la hija;son, daughter
 la terraza;terrace
