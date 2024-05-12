@@ -1,26 +1,3 @@
-# page 5
-cero;zero
-uno;one
-dos;two
-tres;three
-cuatro;four
-cinco;five
-seis;six
-siete;seven
-ocho;eight
-nueve;nine
-diez;ten
-once;eleven
-doce;twelve
-trece;thirteen
-catorce;fourteen
-quince;fifteen
-dieciséis;sixteen
-diecisiete;seventeen
-dieciocho;eighteen
-diecinueve;nineteen
-veinte;twenty
-
 # page 6
 por la mañana;in the morning
 hola;hello
@@ -166,28 +143,6 @@ señores;(here: señora y señor)
 ahora mismo;right away
 la cuenta;the bill/check
 setenta;seventy
-
-# page 19
-veintiuno;twenty-one
-veintidós;twenty-two
-veintitrés;twenty-three
-veinticuatro;twenty-four
-veinticinco;twenty-five
-veintiséis;twenty-six
-veintisiete;twenty-seven
-veintiocho;twenty-eight
-veintinueve;twenty-nine
-treinta;thirty
-treinta y uno;thirty-one
-treinta y dos;thirty-two
-treinta y tres;thirty-three
-cuarenta;forty
-cincuenta;fifty
-sesenta;sixty
-setenta;seventy
-ochenta;eighty
-noventa;ninety
-cien;one hundred
 
 # page 21
 un café solo;espresso
@@ -403,6 +358,8 @@ ahora mismo;right away
 ¿Dónde?;Where?
 ¿De dónde?;From where?
 ¿Por qué?;Why?
+¿Qué tal?;How are you ?
+¿Qué lenguas hablas?;What languages do you speak?
 
 # page 47
 la recepción;reception
@@ -441,6 +398,71 @@ el ascensor;elevator
 allí;over there
 feliz;happy
 la estancia;stay
+
+# page 49
+Alemania;Germany
+un hombre alemán, hombres alemanes, una mujer alemany<b>a</b>, mujeres <b>as</b>;german
+alemán;german (language)
+Austria;Austria
+un hombre austríaco, hombres austríacos, una mujer austríac<b>a</b>, mujeres austríac<b>as</b>;austrian
+Bélgica;Belgium
+belga, -s;belgian
+neerlaandés;dutch (language)
+Canadá;Canada
+canadiense, -s;canadian
+Chile;Chile
+chileno, -a, -os, -as;chilean
+China;China
+chino, -a, -os, -as;chinese (language)
+Columbia;Columbia
+colombiano, -a, -os, -as;columbian
+Core del Sur;South Korea
+coreano, -a, -os, -as;korean
+Cuba;Cuba
+cubano, -a, -os, -as;cuban
+Dinamarca;Denmark
+danés, -a, <b>-es</b>, -as;danish
+Egipto;Egypt
+egipcio, -a, -os, -as;egyptian
+árabe;arabic
+España;Spain
+español, -a, <b>-es</b>, -as;spanish
+Estados Unidos;United States
+estadounidense, -s;american
+Estonia;Estonia
+estonio, -a, -os, -as;estonian
+Filipinas;Philippines
+filipino, -a, -os, -as;filipino
+Finlandia;Finland
+finlandés, -a, <b>-es</b>, -as;finnish
+Francia;France
+francés, -a, <b>-es</b>, -as;french
+Hungría;Hungary
+húngaro, -a, -os, -as;hungarian
+Inglaterra (Reino Unido);England (United Kingdom)
+inglés, -a, <b>-es</b>, -as;english
+Italia;Italy
+italiano, -a, -os, -as;italian
+Japón;Japan
+italiano;italian
+japonés, -a, <b>-es</b>, -as;japanese
+japonés;japanese
+México;Mexico
+mexicano, -a, -os, -as;mexican
+Noruega;Norway
+noruego, -a, -os, -as;norvegian
+Países Bajos;Netherlands
+neerlandés, -a, <b>-es</b>, -as;dutch
+Perú;Peru
+peruano, -a, -os, -as;peruvian
+Portugal;Portugal
+portugués, -a, <b>-es</b>, -as;portugese
+Rusia;Russia
+ruso, -a, -os, -as;russian
+Suecia;Sweden
+sueco, -a, -os, -as;swedish
+Suiza;Switzerland
+suizo, -a, -os, -as;swiss
 
 # page 50
 llamar;to call
@@ -595,16 +617,82 @@ estar* preocupado, -a;to be worried
 estar* libre;to be free
 enhorabuena;congratulation
 
-# page 60 TODO
+# page 60
+¿A qué te dedicas?;What do you do for a living?
+¿A qué se dedica (usted/é, ella)?;What do you do for a living / what does s/he do for a living?
+¿Cuál es tu profesión?;What is your profession?
+Soy policía;I'm a police officer
+Trabajo de administrativo, -a;I work as an administrative officer
+Trabajo en una oficina;I work in an office
+Tengo muchos compañeros de trabajo;I have many workmates
+Tengo cuatro semanas de vacaciones;I have four weeks of holiday
+Estoy desempleado, -a;I am unemployed
+
 
 # page 70
 ¿Qué hora es?;What time is it?
 es la una;it's one o'clock
-son las once menos diez;it's ten to eleven
-son las diez de la mañana;it's ten in the morning
-son las once de la noche;it's eleven in the evening
+son las doce;it's twelve o'clock
+el la una;it's one o'clock
+es la una y cuarto;it is a quarter past one
+son las cuatro y media;it's half past four o'clock
+son las ocho menos diez;It's ten to eight
+son las diez <b>de</b> la mañana;it's ten in the morning
+son las once <b>de</b> la noche;it's eleven in the evening
+es mediodía;it's noon
+es medianoche;it's midnight
+¿A qué hora acaba la película?;What time the film ends?
+acaba a las diez y cuarto;it ends at quarter past ten
+el segundo;second
+el minuto;minute
+la hora;hour
+y (time context);and (or past)
+menos (time context);minus (or to)
+el cuarto;quarter
+la media;half (of an hour)
 
-# page 72
+# page 72, numbers
+cero;zero
+uno;one
+dos;two
+tres;three
+cuatro;four
+cinco;five
+seis;six
+siete;seven
+ocho;eight
+nueve;nine
+diez;ten
+once;eleven
+doce;twelve
+trece;thirteen
+catorce;fourteen
+quince;fifteen
+dieciséis;sixteen
+diecisiete;seventeen
+dieciocho;eighteen
+diecinueve;nineteen
+veinte;twenty
+veintiuno;twenty-one
+veintidós;twenty-two
+veintitrés;twenty-three
+veinticuatro;twenty-four
+veinticinco;twenty-five
+veintiséis;twenty-six
+veintisiete;twenty-seven
+veintiocho;twenty-eight
+veintinueve;twenty-nine
+treinta;thirty
+treinta y uno;thirty-one
+treinta y dos;thirty-two
+treinta y tres;thirty-three
+cuarenta;forty
+cincuenta;fifty
+sesenta;sixty
+setenta;seventy
+ochenta;eighty
+noventa;ninety
+cien;one hundred
 one hundred and one;ciento uno
 one hundred and ten;ciento diez
 one hundred and ninety-nine;ciento noventa y nueve
