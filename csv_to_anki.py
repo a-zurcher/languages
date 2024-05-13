@@ -121,18 +121,16 @@ model_verbs = genanki.Model(
       'afmt': '<p style="text-align:center;">{{Translation}}</p>'
               '<p style="text-align:center;"><b>{{Infinitive}}</b><hr id="answer"></p>'
               '<table>'
-              '<tr>'
-                '<td tabindex="0">{{SingularFirst}}</td>'
-                '<td tabindex="3">{{PluralFirst}}</td>'
-              '</tr>'
-              '<tr>'
-                '<td tabindex="1">{{SingularSecond}}</td>'
-                '<td tabindex="4">{{PluralSecond}}</td>'
-              '</tr>'
-              '<tr>'
-                '<td tabindex="2">{{SingularThird}}</td>'
-                '<td tabindex="5">{{PluralThird}}</td>'
-              '</tr>'
+                  '<tr>'
+                    '<td tabindex="0">{{SingularFirst}},</td>'
+                    '<td tabindex="1">{{SingularSecond}},</td>'
+                    '<td tabindex="2">{{SingularThird}},</td>'
+                  '</tr>'
+                  '<tr>'
+                    '<td tabindex="3">{{PluralFirst}},</td>'
+                    '<td tabindex="4">{{PluralSecond}},</td>'
+                    '<td tabindex="5">{{PluralThird}}</td>'
+                  '</tr>'
               '</table>'
     },
   ])
@@ -175,4 +173,4 @@ for file in files:
 # Generate deck #
 #################
 genanki.Package(my_deck).write_to_file(f'{deck_name}.apkg')
-print(f'Anki deck file {deck_name}.apkg was generated')
+print(f'Anki deck file "{deck_name}.apkg" was generated')
