@@ -88,105 +88,108 @@ get_subject_functions()
 # Anki logic ####
 #################
 model_basic_and_reversed_with_tts = genanki.Model(
-  1485830179,
-  'Basic (and reversed card), with TTS',
-  fields=[
+    1485830179,
+    'Basic (and reversed card), with TTS',
+    fields=[
     {
-      'name': 'Front',
-      'font': 'Arial',
+        'name': 'Front',
+        'font': 'Arial',
     },
     {
-      'name': 'Back',
-      'font': 'Arial',
+        'name': 'Back',
+        'font': 'Arial',
     },
-  ],
-  templates=[
+    ],
+    templates=[
     {
-      'name': 'Card 1',
-      'qfmt': '{{Front}}',
-      'afmt': '{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}',
+        'name': 'Card 1',
+        'qfmt': '{{Front}}',
+        'afmt': '{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}',
     },
     {
-      'name': 'Card 2',
-      'qfmt': '{{Back}}',
-      'afmt': '{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}',
+        'name': 'Card 2',
+        'qfmt': '{{Back}}',
+        'afmt': '{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}',
     },
-  ],
-  css='.card { font-family: arial; font-size: 20px; text-align: center; color: black; background-color: white;}',
+    ],
+    css='.card { font-family: arial; font-size: 20px; text-align: center; color: black; background-color: white;}',
 )
 
 model_verbs = genanki.Model(
-  1607392319,
-  'Spanish verb Model',
-  fields=[
-      {'name': 'Infinitive'},
-      {'name': 'Translation'},
-      {'name': 'SingularFirst'},
-      {'name': 'SingularSecond'},
-      {'name': 'SingularThird'},
-      {'name': 'PluralFirst'},
-      {'name': 'PluralSecond'},
-      {'name': 'PluralThird'}
-  ],
-  css='table, td {border: 1px solid;}'
-      'table {border-spacing:0; margin:auto;}'
-      'td {padding:.5rem;}',
-  templates=[
-    {
-      'name': 'Verb conjugaison',
-      'qfmt': '<p style="text-align:center;">{{Translation}}</p>',
-      'afmt': '<p style="text-align:center;">{{Translation}}<hr id="answer"></p>'
-              '<p style="text-align:center;"><b>{{Infinitive}}</b><span class="invisible">,</span></p>'
-              '<div class="verb-tables">'
-              '<table>'
-                '<tr>'
-                    '<td tabindex="0">'
-                        '<span class="light">' + subject_pronouns[0] + '</span> '
-                        '{{SingularFirst}}<span class="invisible">,</span>'
-                    '</td>'
-                '</tr>'
-                '<tr>'
-                    '<td tabindex="1">'
-                        '<span class="light">' + subject_pronouns[1] + '</span> '
-                        '{{SingularSecond}}<span class="invisible">,</span></td>'
-                '</tr>'
-                '<tr>'
-                    '<td tabindex="2">'
-                        '<span class="light">' + subject_pronouns[2] + '</span> '
-                        '{{SingularThird}}<span class="invisible">,</span>'
-                    '</td>'
-                '</tr>'
-              '</table>'
-              '<table>'
-                '<tr>'
-                    '<td tabindex="0">'
-                        '<span class="light">' + subject_pronouns[3] + '</span> '
-                        '{{PluralFirst}}<span class="invisible">,</span>'
-                    '</td>'
-                '</tr>'
-                '<tr>'
-                    '<td tabindex="1">'
-                        '<span class="light">' + subject_pronouns[4] + '</span> '
-                        '{{PluralSecond}}<span class="invisible">,</span>'
-                    '</td>'
-                '</tr>'
-                '<tr>'
-                    '<td tabindex="2">'
-                        '<span class="light">' + subject_pronouns[5] + '</span> '
-                        '{{PluralThird}}<span class="invisible">,</span>'
-                    '</td>'
-                '</tr>'
-              '</table>'
-              '</div>'
-              '<style>'
-                '.invisible {opacity:0;}'
-                '.light {font-weight: 100;}'
-                '.verb-tables {display:flex; gap: 2rem; justify-content: center}'
-                '.verb-tables table {margin: unset;}'
-              '</style>'
-
-    },
-  ])
+    1607392319,
+    'Spanish verb Model',
+    fields=[
+        {'name': 'Infinitive'},
+        {'name': 'Translation'},
+        {'name': 'SingularFirst'},
+        {'name': 'SingularSecond'},
+        {'name': 'SingularThird'},
+        {'name': 'PluralFirst'},
+        {'name': 'PluralSecond'},
+        {'name': 'PluralThird'}
+    ],
+    css='table, td {border: 1px solid;}'
+        'table {border-spacing:0; margin:auto;}'
+        'td {padding:.5rem;}',
+    templates=[
+        {
+            'name': 'Verb conjugaison',
+            'qfmt': '<p style="text-align:center;">{{Translation}}</p>',
+            'afmt': """
+            <p style="text-align:center;">{{Translation}}<hr id="answer"></p>
+            <p style="text-align:center;"><b>{{Infinitive}}</b><span class="invisible">,</span></p>
+            <div class="verb-tables">
+                <table>
+                    <tr>
+                        <td tabindex="0">
+                            <span class="pronoun">""" + subject_pronouns[0] + """</span> 
+                            {{SingularFirst}}<span class="invisible">,</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td tabindex="1">
+                            <span class="pronoun">""" + subject_pronouns[1] + """</span> 
+                            {{SingularSecond}}<span class="invisible">,</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td tabindex="2">
+                            <span class="pronoun">""" + subject_pronouns[2] + """</span> 
+                            {{SingularThird}}<span class="invisible">,</span>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td tabindex="0">
+                            <span class="pronoun">""" + subject_pronouns[3] + """"</span> 
+                            {{PluralFirst}}<span class="invisible">,</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td tabindex="1">
+                        <span class="pronoun">""" + subject_pronouns[4] + """</span> 
+                        {{PluralSecond}}<span class="invisible">,</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td tabindex="2">
+                        <span class="pronoun">""" + subject_pronouns[5] + """</span> 
+                        {{PluralThird}}<span class="invisible">,</span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <style>
+                .invisible {opacity:0;}
+                .pronoun {font-weight: 100;speak:none;}
+                .verb-tables {display:flex; gap: 2rem; justify-content: center}
+                .verb-tables table {margin: unset;}
+            </style>
+            """
+        },
+    ]
+)
 my_deck = genanki.Deck(
     deck_id=deck_name_int_hash,
     name=deck_name
