@@ -79,7 +79,7 @@ def get_subject_functions() -> None:
             verb_csv = get_csv(filename=current_file, delimiter=';')
 
             if len(verb_csv[0]) != 6:
-                logging.warning(f'First line of a verb conjugaison file should have exactly 6 fields "{current_file}".')
+                logging.warning(f"First line of a verb conjugaison file should have exactly 6 fields '{current_file}'.")
                 exit(1)
 
             # iterates the first line of the verb csv to get the 6 subject pronouns
@@ -202,22 +202,22 @@ my_deck = genanki.Deck(
     name=deck_name
 )
 
-logging.info(f'Files parsed: ["{'", "'.join(files)}"]')
+logging.info(f"Files parsed: ['{"', '".join(files)}']")
 
 for file in files:
     fields = 2
 
-    if re.match(pattern=f'.*cloze.*csv', string=file):
-        logging.info(f'Cloze flashcards "{file}" detected')
+    if re.match(pattern=f".*cloze.*csv", string=file):
+        logging.info(f"Cloze flashcards '{file}' detected")
         model = genanki.CLOZE_MODEL
-    elif re.match(pattern='.*verb.*csv', string=file):
-        logging.info(f'Verb conjugaison flashcards "{file}" detected')
+    elif re.match(pattern=".*verb.*csv", string=file):
+        logging.info(f"Verb conjugaison flashcards '{file}' detected")
         fields = 8
         model = model_verbs
-    elif re.match(pattern='.*csv', string=file):
+    elif re.match(pattern=".*csv", string=file):
         model = model_basic_and_reversed_with_tts
     else:
-        logging.critical(f'The format of the file "{file}" is not supported !')
+        logging.critical(f"The format of the file '{file}' is not supported !")
         exit(1)
 
     csv_content = get_csv(filename=file, delimiter=';')
@@ -236,5 +236,5 @@ for file in files:
 #################
 # Generate deck #
 #################
-genanki.Package(my_deck).write_to_file(f'{deck_name}.apkg')
-logging.info(f'Anki deck file "{deck_name}.apkg" was generated')
+genanki.Package(my_deck).write_to_file(f"{deck_name}.apkg")
+logging.info(f"Anki deck file './{deck_name}.apkg' was generated")
