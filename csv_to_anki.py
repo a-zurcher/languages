@@ -169,7 +169,7 @@ model_verbs = genanki.Model(
                 <table>
                     <tr>
                         <td tabindex="0">
-                            <span class="pronoun">""" + subject_pronouns[3] + """"</span> 
+                            <span class="pronoun">""" + subject_pronouns[3] + """</span> 
                             {{PluralFirst}}<span class="invisible">,</span>
                         </td>
                     </tr>
