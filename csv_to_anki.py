@@ -61,15 +61,32 @@ def get_csv(filename: str, delimiter: str) -> [[str]]:
     return csv_rows
 
 
+subject_pronouns = ["", "", "", "", "", ""]
+
+
+def get_subject_functions() -> None:
+    """Parses first line of csv containing verb conjugaison and adds it
+    to subject_pronouns list"""
+    for current_file in files:
+        if re.match(pattern='.*verb.*csv', string=current_file):
+            verb_csv = get_csv(filename=current_file, delimiter=';')
+
+            if len(verb_csv[0]) != 6:
+                print(f'Warning ! First line of a verb conjugaison file should have exactly 6 fields "{current_file}".')
+                exit(1)
+
+            # iterates the first line of the verb csv to get the 6 subject pronouns
+            for i in range(0, len(subject_pronouns)):
+                subject_pronouns[i] = verb_csv[0][i]
+
+
+# has to be called before template definition
+get_subject_functions()
+
+
 #################
 # Anki logic ####
 #################
-#if language:
-#    card_content = "{{tts "+language+" android-lang=es:Front}}{{Front}}"
-#else:
-#    card_content = "{{Front}}"
-
-
 model_basic_and_reversed_with_tts = genanki.Model(
   1485830179,
   'Basic (and reversed card), with TTS',
@@ -120,18 +137,53 @@ model_verbs = genanki.Model(
       'qfmt': '<p style="text-align:center;">{{Translation}}</p>',
       'afmt': '<p style="text-align:center;">{{Translation}}</p>'
               '<p style="text-align:center;"><b>{{Infinitive}}</b><hr id="answer"></p>'
+              '<div class="verb-tables">'
               '<table>'
-                  '<tr>'
-                    '<td tabindex="0">{{SingularFirst}},</td>'
-                    '<td tabindex="1">{{SingularSecond}},</td>'
-                    '<td tabindex="2">{{SingularThird}},</td>'
-                  '</tr>'
-                  '<tr>'
-                    '<td tabindex="3">{{PluralFirst}},</td>'
-                    '<td tabindex="4">{{PluralSecond}},</td>'
-                    '<td tabindex="5">{{PluralThird}}</td>'
-                  '</tr>'
+                '<tr>'
+                    '<td tabindex="0">'
+                        '<span class="light">' + subject_pronouns[0] + '</span> '
+                        '{{SingularFirst}}<span style="opacity:0">,</span>'
+                    '</td>'
+                '</tr>'
+                '<tr>'
+                    '<td tabindex="1">'
+                        '<span class="light">' + subject_pronouns[1] + '</span> '
+                        '{{SingularSecond}}<span style="opacity:0">,</span></td>'
+                '</tr>'
+                '<tr>'
+                    '<td tabindex="2">'
+                        '<span class="light">' + subject_pronouns[2] + '</span> '
+                        '{{SingularThird}}<span style="opacity:0">,</span>'
+                    '</td>'
+                '</tr>'
               '</table>'
+              '<table>'
+                '<tr>'
+                    '<td tabindex="0">'
+                        '<span class="light">' + subject_pronouns[0] + '</span> '
+                        '{{PluralFirst}}<span style="opacity:0">,</span>'
+                    '</td>'
+                '</tr>'
+                '<tr>'
+                    '<td tabindex="1">'
+                        '<span class="light">' + subject_pronouns[1] + '</span> '
+                        '{{PluralSecond}}<span style="opacity:0">,</span>'
+                    '</td>'
+                '</tr>'
+                '<tr>'
+                    '<td tabindex="2">'
+                        '<span class="light">' + subject_pronouns[2] + '</span> '
+                        '{{PluralThird}}<span style="opacity:0">,</span>'
+                    '</td>'
+                '</tr>'
+              '</table>'
+              '</div>'
+              '<style>'
+                '.light {font-weight: 100;}'
+                '.verb-tables {display:flex; gap: 2rem; justify-content: center}'
+                '.verb-tables table {margin: unset;}'
+              '</style>'
+
     },
   ])
 my_deck = genanki.Deck(
@@ -140,6 +192,7 @@ my_deck = genanki.Deck(
 )
 
 print(f'Files parsed: {', '.join(files)}')
+
 for file in files:
     fields = 2
 
