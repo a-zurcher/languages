@@ -2,7 +2,7 @@
 por la mañana;in the morning
 hola;hello
 buenos días;good morning
-¿Qué tal?;how are you?
+¿Qué tal?;how are you ?
 bien;well
 muy bien; very well
 y;and
@@ -44,8 +44,6 @@ por la noche;at night
 mañana;tomorrow
 en el bar;in the bar
 adiós;goodbye
-cariño;darling
-¡Hasta mañana!;I'll see you tomorrow
 
 # page 8
 ¡Hola!;Hello!
@@ -74,7 +72,7 @@ cariño;(lit. affection)
 cielo; (lit. sky, heaven)
 corazón;(lit. heart)
 guapo, guapa;(lit. handsome, pretty)
-hijo, hija;(lit. son, daughter)
+el hijo, la hija;son, daughter
 querido, querida;(lit. dear)
 
 # page 14
@@ -117,7 +115,6 @@ una magdalena de chocolate;chocolate muffin
 ¿Cuánto es?;How much is it?
 aquí tiene;here you are
 gracias;thank you
-perdón;excuse me, sorry
 no pasa nada;it's OK
 
 # page 18
@@ -148,7 +145,6 @@ setenta;seventy
 un café solo;espresso
 un cortado;coffee with just a little bit of milk
 un café con leche;coffee with milk
-una caña;glass of beer
 una clara;glass of beer with lemonade (shandy)
 una copa de vino tinto;glass of red wine
 un agua mineral;mineral water
@@ -178,7 +174,6 @@ un mes;month
 mi hijo;my son
 hablar por su móvil;to talk on her/his cellphone
 mi;my
-el hijo, la hija;son, daughter
 la terraza;terrace
 pero;but
 mientras;meanwhile
@@ -202,7 +197,6 @@ tan;so
 ya;already
 rubio, -a;blond
 un año;year
-guapo, -a;handsome, pretty
 
 # page 30
 la familia;family
@@ -246,7 +240,6 @@ una discoteca;a club
 # page 31
 padre, madre;father, mother
 padres;parents
-hijo, hija;son, daughter
 children;hijos
 hermano, hermana;brother, sister
 siblings;hermanos
@@ -271,7 +264,6 @@ malo, mala;bad
 divertido, divertida;amusing
 aburrido, aburrida;boring
 feo, fea;ugly
-guapo, guapa;good-looking
 feliz;happy
 infeliz;unhappy
 fuerte;strong
@@ -292,20 +284,19 @@ viejo, vieja;old
 joven;young
 
 # page 42
-¿Cuándo?;When
+¿Cuándo?;When ?
 Viajar;to travel
 mirar;to look
 el hotel;hotel
 lee;she reads
 leer;to read
 el folleto turístico;touristic brochure
-bonito, -a;nice
+bonito, -a;nice, pretty
 ¿Cuál?;what, which?
 ¿Cómo es?;what is it like?
 la estrella;star
 céntrico, -a;central
 la habitación;room
-grande;big
 el aire acondicionado;air conditioning
 el gimnasio;gym
 la piscina;swimming pool
@@ -319,7 +310,6 @@ ver*;to see
 la playa;beach
 bastante;quite
 lejos;far
-vale;ok
 a ver;let’s see
 si;if
 alquilar;to rent
@@ -353,12 +343,10 @@ ahora mismo;right away
 ¿Cuál? ¿Cuáles?;How much?
 ¿Cuánto? ¿Cuánta?;How many?
 ¿Cuántos? ¿Cuántas?;How many?
-¿Cuándo?;When ?
 ¿Cómo?;How? What ... like?
 ¿Dónde?;Where?
 ¿De dónde?;From where?
 ¿Por qué?;Why?
-¿Qué tal?;How are you ?
 ¿Qué lenguas hablas?;What languages do you speak?
 
 # page 47
@@ -395,19 +383,18 @@ la gente;people
 hoy en día;these days
 la llave;the key
 el ascensor;elevator
-allí;over there
 feliz;happy
 la estancia;stay
 
 # page 49
 Alemania;Germany
-un hombre alemán, hombres alemanes, una mujer alemany<b>a</b>, mujeres <b>as</b>;german
+un hombre alemán, hombres alemanes, una mujer alemany<b>a</b>, mujeres alemany<b>as</b>;german
 alemán;german (language)
 Austria;Austria
 un hombre austríaco, hombres austríacos, una mujer austríac<b>a</b>, mujeres austríac<b>as</b>;austrian
 Bélgica;Belgium
 belga, -s;belgian
-neerlaandés;dutch (language)
+neerlandés;dutch (language)
 Canadá;Canada
 canadiense, -s;canadian
 Chile;Chile
@@ -470,7 +457,7 @@ desde;from
 dígame;hello (when answering)
 el problema;problem
 el aire acondicionado;air conditioning
-funcionar;to function, towork
+funcionar;to function, to work
 automático, -a;automatic
 hay;there is / are
 el interruptor;switch
@@ -488,7 +475,6 @@ amable;kind
 estar* en (el) paro;to be unemployed
 el piso;flat, apartment
 buscar;to look for
-bonito, -a;pretty
 el trabajo;work
 tranquilo, -a;peaceful
 pero;but
@@ -497,7 +483,7 @@ fácil;easy
 el mes;month
 el marido;husband
 a veces;occasionally
-andaluz/a;Andalucian
+andaluz/a;Andalusian
 contento, -a;happy
 trabajar;to work
 la vida;life
@@ -577,7 +563,6 @@ La nochebuena es el 24 de diciembre;Christmas Eve is on December 24th
 # page 59
 la oferta;offer
 el próximo martes;next Tuesday
-el trabajo;job
 mayo;May
 lunes;Monday
 estar* seguro, -a;to be sure
@@ -628,9 +613,102 @@ Tengo muchos compañeros de trabajo;I have many workmates
 Tengo cuatro semanas de vacaciones;I have four weeks of holiday
 Estoy desempleado, -a;I am unemployed
 
+# page 63
+el deporte;sport
+practicar;to practise, do
+son casi las once;it’s almost 11 o’clock
+la escalera;stairs
+la mochila;backpack, rucksack
+nuevo, -a;new
+cómodo, -a;comfortable
+llevar;carry, take
+la ropa;clothes
+voy (ir*);I go
+el gimnasio;gym
+la vez;time
+la natación;swimming
+allí;there
+juego a;I play
+jugar (u-ue);to play
+el baloncesto;basketball
+vaya;oh, oh dear
+hacer* deporte;to do sports
+me encanta;I love it
+el tiempo libre;free time
+¿Te gusta?;Do you like ?
+la música;music
+más - que;more than
+tocar la guitarra;to play the guitar
+¿Qué tipo de música?;What type of music ?
+el flamenco;Spanish music and dance genre
+nos encanta;we love
+una vez al mes;once a month
+vamos (ir*);we go
+el concierto;concert
+la clase;class
+¿Qué hora es?;What time is it ?
+a las once y media;at half past eleven
+el supermercado;supermaket
+¡Qué tengas un buen día!;Have a nice day !
+Igualmente;you too
+Hasta otro día;see you later
+
+# page 64
+me encantan;I love
+estas clases;these classes
+hoy;today
+la gente;people
+cada sábado;every Saturday
+el entrenador personal, la entrenadora personal;personal trainer
+los dos;both
+ser (gran) aficionado, -a;to be (a big) fan
+hacer* muy buenas migas;to get on very well
+con ganas de;enthusiastic about
+empezar (e-ie);to start
+ya;already
+primero, -a;first
+correr;to run
+luego;then
+el minute;minute
+la máquina;machine
+acabar;to finish, to end
+un cuarto de hora;quarter of an hour
+la relajación;relaxation
+estupendo, -a;great
+me parece;I think
+la sesión:session
+Qué te parece;what do you think
+esta tarde;this afternoon
+el tenis;tennis
+estar* libre;to be free
+el cine;cinema
+la película;film, movie
+
+# page 68
+aficiones;hobbies
+practicar deporte;to do sports
+jugar (u-ue) al hockey sobre hielo;to play ice hockey
+jugar (u-ue) al tenis;to play tennis
+jugar (u-ue) al baloncesto;to play basketball
+jugar (u-ue) al golf;to play golf
+Ir* al gimnasio;to go to the gym
+hacer* / practicar natación;to go swimming
+hacer* esquí / esquiar;to ski
+hacer* esquí de fondo;to do cross-country skiing
+patinar;to skate
+bailar;to dance
+viajar;to travel
+ver* la tele;to watch TV
+ver* películas / series;to watch films / series
+Ir* al cine / al teatro / a la ópera;to go to the cinema / theatre / opera
+Ir* a conciertos;to go to concerts
+Ir* de compras;to go shopping
+tocar la guitarra / el piano / la batería;to play the guitar / the piano / the drums
+escuchar música;to listen to music
+leer novelas;to read novels
+estudiar lenguas;to study languages
 
 # page 70
-¿Qué hora es?;What time is it?
 es la una;it's one o'clock
 son las doce;it's twelve o'clock
 el la una;it's one o'clock
@@ -697,10 +775,10 @@ one hundred and one;ciento uno
 one hundred and ten;ciento diez
 one hundred and ninety-nine;ciento noventa y nueve
 two hundred;doscientos
-three hunder;trescientos
+three hundred;trescientos
 four hundred;cuatrocientos
 five hundred;quinientos
-six hunded;seiscientos
+six hundred;seiscientos
 seven hundred;<b>sete<b/>cientos
 eight hundred;ochocientos
 nine hundred;<b>nove<b/>cientos
